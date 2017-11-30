@@ -8,7 +8,8 @@
   </head>
   <body>
     <a-scene>
-      <a-sky src="http://arvr.dimselab.dk/wp-content/uploads/2017/11/roskirkegaard.jpg" rotation="0 100 0"></a-sky>
+      <a-asset id="kirkegaard" src="http://arvr.dimselab.dk/wp-content/uploads/2017/11/roskirkegaard.jpg" crossorigin="anonymous"></a-asset>
+      <a-sky src="#kirkegaard" rotation="0 100 0"></a-sky>
       <a-text font="kelsonsans" value="Roskilde Cemetary" width="8" position="-2.5 0.25 -1.5" rotation="0 15 0"></a-text>
       <a-text font="kelsonsans" value="November 2017. Michael Hammel" width="4" position="-2.5 0.25 -5.5" rotation="0 15 0"></a-text>
     </a-scene>
